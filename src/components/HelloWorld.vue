@@ -1,9 +1,8 @@
 <template>
   <div class="hello">
     <h1>
-      <a href="https://rina.sh/meleva" target="_blank" rel="noopener"
-        ><span class="scheme">https://</span><span class="host">rina.sh</span
-        ><span class="path">/meleva</span></a
+      <a href="https://rina.sh/" target="_blank" rel="noopener"
+        ><span class="host">rina.sh</span><span class="path">/meleva</span></a
       >
     </h1>
     <div>
@@ -11,8 +10,8 @@
         Hey-hey 👋
       </p>
       <p>
-        I’m Rina Shmeleva — 👷‍♀️ full-stack web &#38; mobile app developer and 👩‍🎓
-        Aalto University MSc student in
+        I’m Rina — 👷‍♀️ full-stack web &#38; mobile app developer and 👩‍🎓 Aalto
+        University MSc student in
         <a
           href="https://into.aalto.fi/display/enccis/Security+and+Cloud+Computing+%28Security%29+2018-2020"
           target="_blank"
@@ -190,7 +189,7 @@ a,
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 512px;
+  max-width: 640px;
 }
 .path {
   color: #879bc6;

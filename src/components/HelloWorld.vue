@@ -3,7 +3,7 @@
     <h1><span class="host">rina.sh</span><span class="path">/meleva</span></h1>
     <div>
       <p>
-        Hey-hey 👋
+        Hi 👋
       </p>
       <p>
         I’m Rina — 👷‍♀️ full-stack web &#38; mobile app developer and 👩‍🎓 Aalto

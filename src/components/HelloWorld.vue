@@ -1,10 +1,6 @@
 <template>
   <div class="hello">
-    <h1>
-      <a href="https://rina.sh/" target="_blank" rel="noopener"
-        ><span class="host">rina.sh</span><span class="path">/meleva</span></a
-      >
-    </h1>
+    <h1><span class="host">rina.sh</span><span class="path">/meleva</span></h1>
     <div>
       <p>
         Hey-hey 👋
@@ -169,6 +165,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@mixin user-select($select) {
+  -webkit-touch-callout: #{$select};
+  @each $pre in -webkit-, -moz-, -ms-, -o-, -khtml- {
+    #{$pre + user-select}: #{$select};
+  }
+  #{user-select}: #{$select};
+}
+h1 {
+  @include user-select(none);
+}
 h3 {
   margin: 40px 0 0;
   text-transform: uppercase;

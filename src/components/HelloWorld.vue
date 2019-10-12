@@ -12,17 +12,20 @@
       </p>
       <p>
         I’m Rina Shmeleva — 👷‍♀️ full-stack web &#38; mobile app developer and 👩‍🎓
-        Aalto University MSc student in <a
-                  href="https://into.aalto.fi/display/enccis/Security+and+Cloud+Computing+%28Security%29+2018-2020"
-                  target="_blank"
-                  rel="noopener"
-                  >Security and Cloud Computing</a
-                > and <a
-                          href="https://into.aalto.fi/display/ensivuaineet2018/Human-Computer+Interaction"
-                          target="_blank"
-                          rel="noopener"
-                          >Human-Computer Interaction</a
-                        >
+        Aalto University MSc student in
+        <a
+          href="https://into.aalto.fi/display/enccis/Security+and+Cloud+Computing+%28Security%29+2018-2020"
+          target="_blank"
+          rel="noopener"
+          >Security and Cloud Computing</a
+        >
+        and
+        <a
+          href="https://into.aalto.fi/display/ensivuaineet2018/Human-Computer+Interaction"
+          target="_blank"
+          rel="noopener"
+          >Human-Computer Interaction</a
+        >
       </p>
       <p>
         <span class="ls"
@@ -57,12 +60,14 @@
         <br />
         <strong>BSc in Mathematics and Computer Science</strong>
         <br />
-        MESI → <a
+        MESI →
+        <a
           href="https://www.rea.ru/en/Pages/default.aspx"
           target="_blank"
           rel="noopener"
           >PRUE</a
-        > (Moscow, Russia)
+        >
+        (Moscow, Russia)
         <br />
         5.0 / 5.0
       </p>
@@ -71,12 +76,10 @@
         <br />
         <strong>MSc in Computer, Communication and Information Sciences</strong>
         <br />
-        <a
-          href="https://www.aalto.fi/en"
-          target="_blank"
-          rel="noopener"
+        <a href="https://www.aalto.fi/en" target="_blank" rel="noopener"
           >Aalto University</a
-        > (Espoo, Finland)
+        >
+        (Espoo, Finland)
         <br />
         4.9 / 5.0
       </p>
@@ -88,24 +91,20 @@
         <br />
         <strong>Software Developer</strong>
         <br />
-        <a
-          href="https://vestbery.com/"
-          target="_blank"
-          rel="noopener"
+        <a href="https://vestbery.com/" target="_blank" rel="noopener"
           >Vestbery</a
-        > (Moscow, Russia)
+        >
+        (Moscow, Russia)
       </p>
       <p>
         06/2019 – 08/2019 ☀️
         <br />
         <strong>Software Developer</strong>
         <br />
-        <a
-          href="https://www.reaktor.com/"
-          target="_blank"
-          rel="noopener"
+        <a href="https://www.reaktor.com/" target="_blank" rel="noopener"
           >Reaktor</a
-        > (Helsinki, Finland)
+        >
+        (Helsinki, Finland)
       </p>
     </div>
     <div>

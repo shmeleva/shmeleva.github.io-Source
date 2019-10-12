@@ -1,28 +1,48 @@
 <template>
   <div class="hello">
-    <h1>https://rina.sh/meleva</h1>
+    <h1>
+      <a href="https://rina.sh/meleva" target="_blank" rel="noopener"
+        ><span class="scheme">https://</span><span class="host">rina.sh</span
+        ><span class="path">/meleva</span></a
+      >
+    </h1>
     <div>
       <p>
-        Hey-hey 👋 I’m Rina Shmeleva — 👷‍♀️ full-stack web &#38; mobile app
-        developer and 👩‍🎓 Aalto University MSc student in Security and Cloud
-        Computing and Human-Computer Interaction
+        Hey-hey 👋
       </p>
       <p>
-        Feel like talking over a bowl of noodles? Drop me a line!
+        I’m Rina Shmeleva — 👷‍♀️ full-stack web &#38; mobile app developer and 👩‍🎓
+        Aalto University MSc student in <a
+                  href="https://into.aalto.fi/display/enccis/Security+and+Cloud+Computing+%28Security%29+2018-2020"
+                  target="_blank"
+                  rel="noopener"
+                  >Security and Cloud Computing</a
+                > and <a
+                          href="https://into.aalto.fi/display/ensivuaineet2018/Human-Computer+Interaction"
+                          target="_blank"
+                          rel="noopener"
+                          >Human-Computer Interaction</a
+                        >
+      </p>
+      <p>
+        <span class="ls"
+          >Feel like talking over a bowl of noodles? Drop me a line!</span
+        >
         <br />
         [etunimi].[sukunimi][at]ya.ru
         <br />
-        <a
-          href="https://github.com/shmeleva"
-          target="_blank"
-          rel="noopener"
+        <a href="https://github.com/shmeleva" target="_blank" rel="noopener"
           >GitHub</a
-        > * <a
+        >
+        *
+        <a
           href="https://www.linkedin.com/in/eshmeleva/"
           target="_blank"
           rel="noopener"
           >LinkedIn</a
-        > * <a
+        >
+        *
+        <a
           href="https://www.instagram.com/rina.shmeleva/"
           target="_blank"
           rel="noopener"
@@ -35,18 +55,28 @@
       <p>
         09/2012 – 07/2016
         <br />
-        BSc in Mathematics and Computer Science
+        <strong>BSc in Mathematics and Computer Science</strong>
         <br />
-        MESI → PRUE, Moscow, Russia
+        MESI → <a
+          href="https://www.rea.ru/en/Pages/default.aspx"
+          target="_blank"
+          rel="noopener"
+          >PRUE</a
+        > (Moscow, Russia)
         <br />
         5.0 / 5.0
       </p>
       <p>
         09/2018 – present
         <br />
-        MSc in Computer, Communication and Information Sciences
+        <strong>MSc in Computer, Communication and Information Sciences</strong>
         <br />
-        Aalto, Espoo, Finland
+        <a
+          href="https://www.aalto.fi/en"
+          target="_blank"
+          rel="noopener"
+          >Aalto University</a
+        > (Espoo, Finland)
         <br />
         4.9 / 5.0
       </p>
@@ -56,39 +86,51 @@
       <p>
         02/2016 – 08/2018
         <br />
-        Software Developer
+        <strong>Software Developer</strong>
         <br />
-        Vestbery, Moscow, Russia
+        <a
+          href="https://vestbery.com/"
+          target="_blank"
+          rel="noopener"
+          >Vestbery</a
+        > (Moscow, Russia)
       </p>
       <p>
         06/2019 – 08/2019 ☀️
         <br />
-        Software Developer
+        <strong>Software Developer</strong>
         <br />
-        Reaktor, Helsinki, Finland
+        <a
+          href="https://www.reaktor.com/"
+          target="_blank"
+          rel="noopener"
+          >Reaktor</a
+        > (Helsinki, Finland)
       </p>
     </div>
     <div>
       <h3>Skills</h3>
       <p>
-        frontend rinashmeleva$ ls
+        <span class="ls">frontend rinashmeleva$ ls</span>
         <br />
         Vue.js, ReactJS
         <br />
-        mobile rinashmeleva$ ls
+        <span class="ls">mobile rinashmeleva$ ls</span>
         <br />
         React Native, Xamarin, Android
         <br />
-        backend rinashmeleva$ ls
+        <span class="ls">backend rinashmeleva$ ls</span>
         <br />
         ASP.NET, Node.js
         <br />
-        languages rinashmeleva$ ls
+        <span class="ls">languages rinashmeleva$ ls</span>
         <br />
         C#, JavaScript, TypeScript, Kotlin
         <br />
-        skills rinashmeleva$ _
-      <p/>
+        <span class="ls">skills rinashmeleva$ _</span>
+      </p>
+
+      <p />
     </div>
     <div>
       <h3>Values</h3>
@@ -98,7 +140,9 @@
         * Being part of a team &#38; taking personal responsibility
         <br />
         * Welcoming new &#38; unknown challenges
-      <p/>
+      </p>
+
+      <p />
     </div>
     <div>
       <h3>Faves</h3>
@@ -112,7 +156,9 @@
         * Making awkward attempts at snowboarding
         <br />
         * Noodles 🍜
-      <p/>
+      </p>
+
+      <p />
     </div>
   </div>
 </template>
@@ -127,6 +173,7 @@ export default {
 <style scoped lang="scss">
 h3 {
   margin: 40px 0 0;
+  text-transform: uppercase;
 }
 ul {
   list-style-type: none;
@@ -136,7 +183,21 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-a {
-  color: #42b983;
+a,
+.host {
+  color: #e3bbd1;
+}
+.hello {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 512px;
+}
+.path {
+  color: #879bc6;
+}
+.ls,
+.scheme {
+  color: #a1aace;
 }
 </style>

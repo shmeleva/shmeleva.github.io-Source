@@ -5,21 +5,15 @@
 </template>
 
 <style lang="scss">
+@import url(https://fonts.googleapis.com/css?family=Inconsolata&display=swap);
+body {
+  background-color: #202126;
+}
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: "Inconsolata", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  color: #e7efff;
+  line-height: 1.5;
 }
 </style>
